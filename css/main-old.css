@@ -3,16 +3,16 @@ GENERAL
 *****************************************/
 
 body {
-  font-family: 'Karla', sans-serif;
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 #wrapper {
   max-width: 940px;
-  min-height: 700px;
+  min-height: 750px;
   margin: 0 auto;
-  padding: 0 auto;
-
+  padding: 0 5%;
+  background-color: #474443;
 }
 
 a {
@@ -23,11 +23,6 @@ img {
   max-width: 100%;
 }
 
-.transparent {
-	zoom: 1;
-	filter: alpha(opacity=65);
-	opacity: 0.65;
-}
 
 /****************************************
 HEADING
@@ -46,7 +41,7 @@ header {
 }
 
 h1 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin: 15px 0;
   font-size: 2em;
   font-weight: 700;
@@ -54,11 +49,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
-  font-size: 1.2em;
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
   margin: -5px 0 0;
   font-weight: normal;
 }
+
+h3 {
+  font-family: 'PT Serif', serif;
+  margin: 0 0 1em 0;
+}
+
 
 /****************************************
 NAVIGATION
@@ -81,48 +82,68 @@ nav li {
 }
 
 nav a {
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   padding: 15px 10px; /* Padding makes links more "tappy" */
 }
+
+
 
 /****************************************
 FOOTER
 *****************************************/
 
 footer {
-  font-family: 'Karla', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
+  font-size: 0.75em;
   text-align: center;
   clear: both;
   padding-top: 50px;
+  color: #ccc;
 }
+
+.social-icon {
+  max-width: 100%;
+  margin: 20px 5px;
+}
+
+
 
 /****************************************
 PAGE: MAIN
 *****************************************/
 
-#social-links {
+#gallery {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#social-links li {
-  float: clear;
-  width: 35%;
-  margin: 0 auto;
-  padding: 0;
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
 }
 
-#social-links li a img {
-  margin: 40px 0;
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
 }
+
+
 
 /****************************************
 PAGE: ABOUT
 *****************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
 
 
 
@@ -133,41 +154,42 @@ COLORS
 /* site body */
 
 body {
-  background-color: #474443;
+  background-color: #fff;
+  color: #4949B2;
 }
 
-/* header */
+/* green header */
 
 header {
-  background-color: #432A5F;
-  border-color: #7C5DBE;
+  background: #502B79;
+  border-color: #599a68;
 }
 
 /* nav background on mobile */
 
 nav {
-  background-color: #7C5DBE;
+  background: #599a68;
 }
 
 /* logo text */
 
 h1, h2 {
-  color: #BEBDBC;
+  color: #fff;
+}
+
+/* links */
+
+a {
+  color: #6ab47b;
 }
 
 /* nav link */
 
 nav a, nav a:visited {
-  color: #BEBDBC;
+  color: #fff;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #432A5F;
-}
-
-/* footer */
-
-footer {
-  color: #BEBDBC;
+  color: #32673F;
 }
