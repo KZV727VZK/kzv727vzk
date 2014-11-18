@@ -19,4 +19,8 @@
     margin-left: 10%;
   }
 
+  #social-links div.second img {
+    max-width: 90%;
+  }
+
 }
