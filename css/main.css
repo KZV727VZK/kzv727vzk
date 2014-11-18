@@ -3,8 +3,8 @@ GENERAL
 *****************************************/
 
 body {
-  font-family: 'Karla', sans-serif;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 #wrapper {
@@ -46,7 +46,7 @@ header {
 }
 
 h1 {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lobster Two', cursive;
   margin: 15px 0;
   font-size: 2em;
   font-weight: 700;
@@ -54,11 +54,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1.2em;
   margin: -5px 0 0;
   font-weight: normal;
 }
+
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 0 0 1em 0;
+}
+
 
 /****************************************
 NAVIGATION
@@ -81,7 +87,7 @@ nav li {
 }
 
 nav a {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-weight: 700;
   padding: 15px 10px; /* Padding makes links more "tappy" */
 }
@@ -91,7 +97,7 @@ FOOTER
 *****************************************/
 
 footer {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
   text-align: center;
@@ -104,27 +110,30 @@ PAGE: MAIN
 *****************************************/
 
 #social-links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#social-links li {
-  float: clear;
-  width: 35%;
+  max-width: 50%;
   margin: 0 auto;
   padding: 0;
 }
 
-#social-links li a img {
-  margin: 40px 0;
+#social-links div {
+  margin: 0 auto;
+}
+
+#social-links div a img {
+  margin: 30% auto;
 }
 
 /****************************************
 PAGE: ABOUT
 *****************************************/
 
+h3 {
+  margin: 0 0 20px 40px;
+}
 
+#about-text {
+  margin: 0 0 20px 40px;
+}
 
 /****************************************
 COLORS
@@ -151,7 +160,13 @@ nav {
 
 /* logo text */
 
-h1, h2 {
+h1, h2, h3 {
+  color: #BEBDBC;
+}
+
+/* paragraph text */
+
+p {
   color: #BEBDBC;
 }
 
@@ -164,10 +179,4 @@ nav a, nav a:visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #432A5F;
-}
-
-/* footer */
-
-footer {
-  color: #BEBDBC;
 }

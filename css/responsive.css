@@ -4,14 +4,19 @@
   PAGE: MAIN
   *****************************************/
 
-  #social-links li {
-    margin: 0 auto;
-    width: 25%;
-    background: orange;
+  #social-links div {
+    margin-top: 10%;
+    max-width: 35%;
   }
 
-  #social-links li a img {
-    margin: 40px 0;
+  #social-links div.first {
+    float: left;
+    margin-right: 10%;
+  }
+
+  #social-links div.second {
+    float: right;
+    margin-left: 10%;
   }
 
 }
