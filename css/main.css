@@ -1,0 +1,182 @@
+/****************************************
+GENERAL
+*****************************************/
+
+body {
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  min-height: 700px;
+  margin: 0 auto;
+  padding: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=65);
+	opacity: 0.65;
+}
+
+/****************************************
+HEADING
+*****************************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  margin: 15px 0;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.2em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 0 0 1em 0;
+}
+
+
+/****************************************
+NAVIGATION
+*****************************************/
+
+nav {
+ text-align: center;
+ padding: 10px 0;
+ margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 700;
+  padding: 15px 10px; /* Padding makes links more "tappy" */
+}
+
+/****************************************
+FOOTER
+*****************************************/
+
+footer {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+/****************************************
+PAGE: MAIN
+*****************************************/
+
+#social-links {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#social-links div {
+  margin: 0 auto;
+}
+
+#social-links div a img {
+  margin: 30% auto;
+}
+
+/****************************************
+PAGE: ABOUT
+*****************************************/
+
+h3 {
+  margin: 0 0 2.5% 10%;
+}
+
+#about-text {
+  margin: 0 0 0 10%;
+}
+
+/****************************************
+COLORS
+*****************************************/
+
+/* site body */
+
+body {
+  background-color: #474443;
+}
+
+/* header */
+
+header {
+  background-color: #432A5F;
+  border-color: #7C5DBE;
+}
+
+/* nav background on mobile */
+
+nav {
+  background-color: #7C5DBE;
+}
+
+/* logo text */
+
+h1, h2, h3 {
+  color: #BEBDBC;
+}
+
+/* paragraph text */
+
+p {
+  color: #BEBDBC;
+}
+
+/* nav link */
+
+nav a, nav a:visited {
+  color: #BEBDBC;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #432A5F;
+}
